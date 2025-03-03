@@ -1,0 +1,10 @@
+{
+  "name": "language-hbp",
+  "description": "hydrogen-next cell support",
+  "version": "0.0.0",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.28.0 <2.0.0"
+  },
+  "main": "./lib/main"
+}

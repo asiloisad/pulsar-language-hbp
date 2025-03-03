@@ -1,0 +1,6 @@
+scopeName: 'hydrogen.breakpoints'
+name: 'hydrogen breakpoints'
+type: 'modern-tree-sitter'
+parser: 'tree-sitter-hbp'
+treeSitter:
+  grammar: 'tree-sitter-hbp.wasm'
