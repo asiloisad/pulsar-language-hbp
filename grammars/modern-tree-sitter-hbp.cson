@@ -2,5 +2,6 @@ scopeName: 'hydrogen.breakpoints'
 name: 'hydrogen breakpoints'
 type: 'modern-tree-sitter'
 parser: 'tree-sitter-hbp'
+injectionRegex: '^(hydrogen-breakpoints)$'
 treeSitter:
   grammar: 'tree-sitter-hbp.wasm'
