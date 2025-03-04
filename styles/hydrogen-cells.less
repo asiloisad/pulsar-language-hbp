@@ -1,0 +1,13 @@
+@import "syntax-variables";
+
+atom-text-editor.editor {
+  .syntax--hydrogen.syntax--breakpoints::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    background: @syntax-wrap-guide-color;
+    opacity: 0.95;
+  }
+}
